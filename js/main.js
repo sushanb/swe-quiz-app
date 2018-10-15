@@ -54,13 +54,15 @@ $(document).ready(function() {
 
     answerFeedbackText: function(isCorrect) {
       var praises = [
-        "Wow. You got it right. I bet you feel really good about yourself now",
-        "Correct. Which would be impressive, if it wasn't just luck"
+        "Wow. You got it right.",
+        "Correct.",
+        "Impressive",
+        "Damn!, that's right",
       ];
 
       var encouragements = [
-        "Sorry, you didn't get that right. Try to read more.",
-        "Better luck next time. Sure, you can get it if you try to be mindful.",
+        "Sorry, you didn't get that right",
+        "Your answer is wrong. Better luck next time.",
       ];
 
       var choices = isCorrect ? praises : encouragements;
@@ -73,8 +75,7 @@ $(document).ready(function() {
     },
 
     questionCountText: function() {
-      return (this.currentQuestionIndex + 1) + "/" +
-        this.questions.length + ": ";
+      return (this.currentQuestionIndex + 1) + ": ";
     },
 
     finalFeedbackText: function() {
