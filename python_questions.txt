@@ -1,0 +1,96 @@
+1. What word must always come at the beginning of a function definition?
+	a. myFunct
+	b. cout
+	c. def
+	d. function
+	correct answer: c
+
+2. What is the correct output for print(c[::2]) when c = [1, 2, 10, 15, 3, 4]?
+	a. [1, 2]
+	b. [1, 10, 3]
+	c. [1, 10]
+	d. [10]
+	correct answer: b
+
+3. Which statement about functions is true?
+	a. They can create objects
+	b. They allow the program to run faster
+	c. They perform specific tasks
+	d. All of the above
+	correct answer: d
+
+4. What is a recursive function?
+	a. A function that calls every function in the program
+	b. A function that calls itself 
+	c. Recursive functions do not exist in Python
+	d. A function that automatically converts its arguments into strings
+	correct answer: b
+
+5. What is the proper syntax for importing a Python module?
+	a. include moduleName
+	b. module import moduleName
+	c. module moduleName
+	d. import moduleName
+	correct answer: d
+
+6. What is the output of the following code?
+	def Foo(x):
+		def multiple(n):
+			return n*x
+		return multiple
+	
+	a = Foo(5)
+	b = Foo(5)
+	print(a(b(2)))
+
+	a. 100
+	b. 25
+	c. 50 
+	d. 10
+	correct answer: c
+
+7. The property object that is returned from the property() built-int function contains which methods?
+	a. getter(), delete()
+	b. getter(), setter(), delete()
+	c. setter(), delete()
+	d. getter(), setter()
+	correct answer: b
+
+8. What will "a" equal after the following function is run?
+	def myFunc(a=[]):
+	a.append(5)
+	return a
+
+	a. ([5,5],[5,5])
+	b. ([5],[5])
+	c. ([5],[5,5])
+	d. error
+	correct answer: a
+
+9. Which statement is true about "printHi()" and "a" in the function?
+	def printHi():
+		print("Hi")
+	a = printHi()
+
+	a. "printHello()" and "a" refer to different objects
+	b. Syntax error 
+	c. Neither are objects
+	d. "printHello()" and "a" refer to the same objects
+	correct answer: d
+
+10. What is the output of the following program?
+	def outsideFunct():
+		global a
+		a = 20
+		def insideFunct():
+			global a
+			a = 30
+			print ('a =', a)
+	a = 10
+	outsideFunction()
+	print('a =',a)
+	a. a = 10 a = 30
+	b. a = 30
+	c. a = 20
+	d. a = 10
+	correct answer: c

@@ -1,0 +1,64 @@
+1. What is the correct data type for this value: true
+	a. Double
+	b. Int
+	c. Char
+	d. Boolean
+	correct answer: d
+2. What loop will display the numbers in the array float[]nums={1.1, 2.2, 3.3} on seperate lines?
+	a. for(i=1; i<=3; i++) System.out.println(nums[i])
+	b. for(i=1; i<3; i++) System.out.println(nums[i])
+	c. for(i=0; i<=3; i++) System.out.println(nums[i])
+	d. for(i=0; i<3; i++) System.out.println(nums[i])
+	correct answer: d
+3. What will the following code produce?
+	class A {public static void 
+		main(String [] args) {B b = new A();}} class B extends A{} 
+	a. Runtime exception
+	b. No output
+	c. No error
+	d. Compile error
+	correct answer: d
+4. What is encapsulation?
+	a. A way of defining methods of the same type
+	b. Making fields of a class private and providing access to them via public methods
+	c. An object's ability to take many different forms
+	d. All of the above
+	correct answer: b
+5. What expression will display the first element in the following array?
+	int[]nums = {3, 4, 12, 5, 9}
+	a. System.out.print(nums[3])
+	b. System.out.print(nums[0])
+	c. System.out.print(nums[1])
+	d. System.out.print(nums)
+	correct answer: b
+6. When a sub-class declares a method that has the same argument types as a method declared by one of its superclasses, it is a:
+	a. method overriding
+	b. method encapsulation
+	c. method containment
+	d. method inheritance
+	correct answer: a
+7. Which implicit object is not available to a JSP?
+	a. Exception
+	b. Session
+	c. config
+	d. Application
+	correct answer: a
+
+8. Which option is a benefit of using the Value Object design pattern?
+	a. It reduces network traffic
+	b. It reduces coupling between the database and data access module
+	c. It improves object operations efficiency
+	d. none of the above
+	correct answer: a
+9. Which method in the HttpServlet class services the HTTP POST request?
+	a. DoPost(HttpServletRequest, HttpServletResponse)
+	b. DoPost(ServletRequest, ServletResponse)
+	c. HttpPost(ServletRequest, ServletResponse)
+	d. ServicePost(HttpServletRequest,HttpServletResponse)
+	correct answer: a
+10.The keyword which is used to access the method or member variables from the superclass is:
+	a. super
+	b. using
+	c. is_a
+	d. has_a
+	correct answer: a
