@@ -104,9 +104,18 @@ $(document).ready(function() {
       },
   
       finalFeedbackText: function() {
+        var level = ""
+        if (this.score < 5) {
+          level = "BEGINNER";
+        } else if (this.score < 8) {
+          level = "INTERMEDIATE";
+        } else {
+          level = "ADVANCED";
+        }
         return "You got " + this.score + " out of " +
-          this.questions.length + " questions right.";
+          this.questions.length + " questions right." + "\n" + "Level " + level;
       },
+  
   
       scoreUserAnswer: function(answer) {
         var correctChoice = this.currentQuestion().choices[this.currentQuestion().correctChoiceIndex];
